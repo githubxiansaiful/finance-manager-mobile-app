@@ -1,0 +1,80 @@
+﻿# ==============================================================================
+# Android & Gradle Build Artifacts
+# ==============================================================================
+*.apk
+*.aab
+*.ap_
+*.dex
+/FinanceManager.apk
+/app-debug.apk
+
+# Gradle build cache & output
+.gradle/
+build/
+app/build/
+*/build/
+bin/
+gen/
+out/
+
+# Android Studio / IntelliJ IDEA
+.idea/
+*.iml
+.navigation/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Kotlin / KSP compiler caches
+.kotlin/
+ksp-output/
+
+# ==============================================================================
+# Sensitive Configuration & Personal Credentials (DO NOT COMMIT)
+# ==============================================================================
+# Local SDK paths, machine usernames, and environment configs
+local.properties
+/local.properties
+
+# Firebase & Google Services (contains private project IDs, OAuth tokens, API keys)
+google-services.json
+app/google-services.json
+
+# Environment / Secret property files
+*.env
+.env*
+secrets.properties
+apikey.properties
+
+# Signing credentials / Keystores
+*.jks
+*.keystore
+signing.properties
+keystore.properties
+*.key
+*.pem
+*.p12
+
+# Local Databases, Caches & Exports
+*.db
+*.db-shm
+*.db-wal
+*.csv
+*.pdf
+/exports/
+
+# ==============================================================================
+# Operating System & IDE junk
+# ==============================================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Log files
+*.log
